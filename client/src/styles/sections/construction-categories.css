@@ -1,0 +1,24 @@
+.categories-grid {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .categories-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.categories-grid .category-card {
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.categories-grid .category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}

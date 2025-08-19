@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.6;
+  color: var(--color-charcoal);
+  background-color: var(--color-soft-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.section {
+  padding: var(--spacing-4xl) 0;
+}
+
+.section--gray {
+  background-color: var(--color-gray-50);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: var(--spacing-4xl);
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-charcoal);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.grid--1 {
+  grid-template-columns: 1fr;
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 767px) {
+  .grid--2,
+  .grid--3,
+  .grid--4,
+  .grid--5 {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .section {
+    padding: var(--spacing-3xl) 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid--3,
+  .grid--4,
+  .grid--5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .section {
+    padding: var(--spacing-6xl) 0;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

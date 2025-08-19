@@ -1,0 +1,15 @@
+.processes-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .processes-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .processes-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
