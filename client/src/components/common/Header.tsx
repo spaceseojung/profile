@@ -96,7 +96,7 @@ const Header = () => {
                 }}
                 data-testid="link-nav-processes"
               >
-                세부 공정
+                하는 일
               </a>
             </li>
             <li>

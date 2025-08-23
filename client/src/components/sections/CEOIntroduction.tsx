@@ -5,7 +5,7 @@ const CEOIntroduction = () => {
   const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
 
   const careerItems = [
-    '㈜스페이스서정 대표이사',
+    '㈜스페이스 서정 대표이사',
     '정원엘앤디 대표',
     '구미대학교 도시조경디자인과 겸임교수',
     '경북대학교 대학원 조경학 박사수료',

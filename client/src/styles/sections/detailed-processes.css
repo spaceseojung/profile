@@ -1,5 +1,6 @@
 .processes-grid {
   grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xs);
 }
 
 @media (min-width: 768px) {

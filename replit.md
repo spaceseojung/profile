@@ -1,6 +1,6 @@
 # Overview
 
-This is a company website project for ㈜스페이스서정 (Space Seo Jung Co., Ltd.), a landscaping and garden construction company based in South Korea. The project is built as a single-page application (SPA) showcasing the company's services, projects, CEO information, and contact details. The website is designed to be a direct translation of a company brochure into a web format, maintaining exact content fidelity while providing an engaging user experience with scroll-based animations and responsive design.
+This is a company website project for ㈜스페이스 서정 (Space Seo Jung Co., Ltd.), a landscaping and garden construction company based in South Korea. The project is built as a single-page application (SPA) showcasing the company's services, projects, CEO information, and contact details. The website is designed to be a direct translation of a company brochure into a web format, maintaining exact content fidelity while providing an engaging user experience with scroll-based animations and responsive design.
 
 The application presents six main sections: CEO introduction, major projects portfolio, company introduction, detailed construction processes, construction categories, and contact information. It emphasizes the company's philosophy of creating "slow spaces" that provide respite from busy modern life.
 

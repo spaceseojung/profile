@@ -1,13 +1,19 @@
-.company-grid {
-  display: grid;
-  gap: var(--spacing-3xl);
-  align-items: flex-start;
+@media (min-width: 1024px) {
+  .company-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-4xl);
+  }
+  .company__title {
+    font-size: 2.5rem;
+  }
+  .company__subtitle {
+    font-size: 1.5rem;
+  }
+  .company__tagline {
+    font-size: 2rem;
+  }
 }
-
-.company__content {
-  order: 1;
-}
-
 .company__image-container {
   order: 2;
 }
@@ -41,7 +47,7 @@
 }
 
 .company__section-title {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: var(--font-weight-semibold);
   color: var(--color-primary);
   margin-bottom: var(--spacing-md);
@@ -64,27 +70,28 @@
   border: 1px solid var(--color-gray-100);
 }
 
-.company__main-image {
+ .company__main-image {
   border-radius: var(--radius-2xl);
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--color-gray-200); /* 더 연한 회색 */
+  aspect-ratio: 1.6 / 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 767px) {
+  .company__main-image {
+    margin-top: var(--spacing-xl);
+  }
   .company-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-4xl);
+    display: flex;
+    flex-direction: column;
   }
-  
-  .company__title {
-    font-size: 2.5rem;
+  .company__image-container {
+    order: 2;
   }
-  
-  .company__subtitle {
-    font-size: 1.5rem;
-  }
-  
-  .company__tagline {
-    font-size: 2rem;
+  .company__content {
+    order: 1;
   }
 }

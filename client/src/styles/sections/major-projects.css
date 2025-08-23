@@ -1,5 +1,8 @@
 .projects-grid {
   margin-bottom: var(--spacing-3xl);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xs);
 }
 
 .projects-logo {

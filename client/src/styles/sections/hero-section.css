@@ -63,7 +63,7 @@
 
 .hero-title {
   font-size: 3rem;
-  font-weight: var(--font-weight-bold);
+  font-weight: 400;
   color: var(--color-white);
   line-height: 1.2;
   margin: 0;
@@ -75,6 +75,8 @@
   color: var(--color-secondary);
   display: inline-block;
   position: relative;
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
 }
 
  .hero-title__highlight::after {

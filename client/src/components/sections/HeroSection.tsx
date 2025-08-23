@@ -41,8 +41,8 @@ const HeroSection = () => {
             className={`hero-text animate-on-scroll ${isVisible ? 'visible' : ''}`}
           >
             <h1 className="hero-title" data-testid="text-hero-title">
-              공간에 가치를 더하다.<br />
-              <span className="hero-title__highlight">스페이스서정</span>
+                공간에 가치를 더하다.<br />
+                <span className="hero-title__highlight">㈜스페이스 서정</span>
             </h1>
           </div>
         </div>

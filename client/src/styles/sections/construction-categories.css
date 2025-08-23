@@ -1,5 +1,7 @@
 .categories-grid {
-  grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xs);
 }
 
 @media (min-width: 768px) {
