@@ -42,32 +42,7 @@ const Header = () => {
         </div>
         <nav className="header__nav" data-testid="nav-main">
           <ul className="header__nav-list">
-            <li>
-              <a 
-                href="#ceo" 
-                className="header__nav-link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavClick('ceo');
-                }}
-                data-testid="link-nav-ceo"
-              >
-                대표이사 소개
-              </a>
-            </li>
-            <li>
-              <a 
-                href="#projects" 
-                className="header__nav-link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavClick('projects');
-                }}
-                data-testid="link-nav-projects"
-              >
-                주요 시공 경력
-              </a>
-            </li>
+
             <li>
               <a 
                 href="#company" 
@@ -81,6 +56,35 @@ const Header = () => {
                 회사 소개
               </a>
             </li>
+
+            <li>
+              <a 
+                href="#projects" 
+                className="header__nav-link"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick('projects');
+                }}
+                data-testid="link-nav-projects"
+              >
+                주요 시공 경력
+              </a>
+            </li>
+
+            <li>
+              <a 
+                href="#ceo" 
+                className="header__nav-link"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick('ceo');
+                }}
+                data-testid="link-nav-ceo"
+              >
+                대표이사 소개
+              </a>
+            </li>
+
             <li>
               <a 
                 href="#processes" 
@@ -104,7 +108,7 @@ const Header = () => {
                 }}
                 data-testid="link-nav-categories"
               >
-                시공 카테고리
+                시공
               </a>
             </li>
             <li>

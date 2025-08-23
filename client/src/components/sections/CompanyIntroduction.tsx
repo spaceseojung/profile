@@ -13,24 +13,19 @@ const CompanyIntroduction = () => {
             className={`company__content animate-on-scroll ${contentVisible ? 'visible' : ''}`}
           >
             <h2 className="company__title" data-testid="text-company-title">회사 소개</h2>
-            <h3 className="company__subtitle" data-testid="text-company-name">㈜스페이스서정</h3>
-            
-            <div className="company__tagline" data-testid="text-company-tagline">
-              "느림 공간의 가치를 더합니다."
-            </div>
 
             <div className="company__sections">
               <div className="company__section">
-                <h4 className="company__section-title" data-testid="text-philosophy-title">쉬고 싶은 공간에 대한 철학</h4>
+                <h4 className="company__section-title" data-testid="text-philosophy-title">1. 쉬고 싶은 공간에 대한 철학</h4>
                 <div className="company__section-content" data-testid="text-philosophy-content">
-                  <p>• 바쁜 현대인의 삶 속,</p>
+                  <p>• 바쁜 현대인의 삶 속</p>
                   <p>• 시간을 멈추게 하고픈 공간.</p>
                   <p>• ㈜스페이스서정이 추구하는 공간입니다.</p>
                 </div>
               </div>
 
               <div className="company__section">
-                <h4 className="company__section-title" data-testid="text-experience-title">꾸준히, 폭 넓은 조경 경험</h4>
+                <h4 className="company__section-title" data-testid="text-experience-title">2. 꾸준히, 폭 넓은 조경 경험</h4>
                 <div className="company__section-content" data-testid="text-experience-content">
                   <p>• 개인 주택에서 아파트까지. 상업 공간에서 공원 조성까지.</p>
                   <p>• 다육아트에서 모스인테리어, 이끼정원, 수석산 등.</p>
@@ -38,15 +33,6 @@ const CompanyIntroduction = () => {
                   <p>• 이용자의 요구에 맞는 다양한 공간을 조성하는 회사입니다.</p>
                 </div>
               </div>
-            </div>
-
-            <div className="company__detail-image-container animate-on-scroll">
-              <img 
-                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400"
-                alt="회사 세부 작업 모습"
-                className="company__detail-image"
-                data-testid="img-company-detail"
-              />
             </div>
           </div>
 

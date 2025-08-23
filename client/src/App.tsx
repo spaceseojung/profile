@@ -28,9 +28,9 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <CEOIntroduction />
-        <MajorProjects />
         <CompanyIntroduction />
+        <MajorProjects />
+        <CEOIntroduction />
         <DetailedProcesses />
         <ConstructionCategories />
         <ContactInformation />
