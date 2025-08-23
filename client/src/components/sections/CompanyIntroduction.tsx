@@ -41,7 +41,7 @@ const CompanyIntroduction = () => {
             className={`company__image-container animate-on-scroll ${imageVisible ? 'visible' : ''}`}
           >
             <img
-              src="/images/experience/experience_1.jpg"
+              src="/images/company/company_1.jpg"
               alt="자연 조경 작업 배경"
               className="company__main-image"
               data-testid="img-company-main"
