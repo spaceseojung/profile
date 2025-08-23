@@ -25,11 +25,23 @@
   height: 100%;
 }
 
-.header__logo {
-  font-size: 1.25rem;
+ .header__logo {
+  font-size: 1rem;
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
   text-decoration: none;
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+}
+
+.header__logo--thin {
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.header__logo--bold {
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--color-primary);
 }
 
 .header__nav {
@@ -61,12 +73,12 @@
   }
   
   .header__logo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
 @media (min-width: 1024px) {
   .header__logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }

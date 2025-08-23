@@ -18,9 +18,21 @@
 
 .projects-logo__title {
   font-size: 1.5rem;
-  font-weight: var(--font-weight-bold);
+  font-weight: 700;
   color: var(--color-primary);
   margin-bottom: var(--spacing-sm);
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+}
+
+.projects-logo__title--secondary {
+  color: var(--color-secondary);
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+}
+.projects-logo__title--primary {
+  color: var(--color-primary);
+  font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
 }
 
 .projects-logo__divider {

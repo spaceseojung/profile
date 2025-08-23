@@ -36,7 +36,6 @@ const ContactInformation = () => {
             className={`business-card animate-on-scroll ${cardVisible2 ? 'visible' : ''}`}
             data-testid="card-business-back"
           >
-            <h4 className="business-card__section-title" data-testid="text-contact-section-title">연락처</h4>
             <div className="business-card__contact-list">
               <div className="business-card__contact-item" data-testid="text-contact-email">
                 <span className="business-card__contact-text">M</span>

@@ -37,7 +37,8 @@ const Header = () => {
             }}
             data-testid="link-logo"
           >
-            ㈜스페이스서정
+            <span className="header__logo--thin">SPACE</span>{' '}
+            <span className="header__logo--bold">SEOJUNG</span>
           </a>
         </div>
         <nav className="header__nav" data-testid="nav-main">

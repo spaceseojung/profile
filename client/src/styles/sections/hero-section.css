@@ -44,9 +44,9 @@
   height: 100%;
   background: linear-gradient(
     45deg,
-    rgba(45, 74, 62, 0.4) 0%,
-    rgba(0, 0, 0, 0.3) 50%,
-    rgba(45, 74, 62, 0.2) 100%
+    rgba(45, 74, 62, 0.7) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(45, 74, 62, 0.5) 100%
   );
 }
 
@@ -71,13 +71,13 @@
   letter-spacing: -0.02em;
 }
 
-.hero-title__highlight {
+ .hero-title__highlight {
   color: var(--color-secondary);
   display: inline-block;
   position: relative;
 }
 
-.hero-title__highlight::after {
+ .hero-title__highlight::after {
   content: '';
   position: absolute;
   bottom: -4px;

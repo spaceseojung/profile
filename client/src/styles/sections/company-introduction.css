@@ -47,9 +47,10 @@
   margin-bottom: var(--spacing-md);
 }
 
-.company__section-content {
+ .company__section-content {
   color: var(--color-gray-700);
   line-height: 1.6;
+  font-size: 1.125rem;
 }
 
 .company__section-content p {
