@@ -1,5 +1,6 @@
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
+import HeroSection from './components/sections/HeroSection';
 import CEOIntroduction from './components/sections/CEOIntroduction';
 import MajorProjects from './components/sections/MajorProjects';
 import CompanyIntroduction from './components/sections/CompanyIntroduction';
@@ -13,6 +14,7 @@ import './styles/animations.css';
 import './styles/components/header.css';
 import './styles/components/footer.css';
 import './styles/components/cards.css';
+import './styles/sections/hero-section.css';
 import './styles/sections/ceo-introduction.css';
 import './styles/sections/major-projects.css';
 import './styles/sections/company-introduction.css';
@@ -25,6 +27,7 @@ function App() {
     <div className="app">
       <Header />
       <main>
+        <HeroSection />
         <CEOIntroduction />
         <MajorProjects />
         <CompanyIntroduction />
