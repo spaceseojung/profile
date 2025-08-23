@@ -5,26 +5,14 @@ const ConstructionCategories = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
 
   const categories = [
-    {
-      title: '구조물',
-      imageUrl: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300',
-      imageAlt: '현대적인 조경 구조물 시공'
-    },
-    {
-      title: '데크',
-      imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300',
-      imageAlt: '원목 데크 시공'
-    },
-    {
-      title: '산책로',
-      imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300',
-      imageAlt: '자연을 통과하는 아름다운 산책로 조성'
-    },
-    {
-      title: '옹벽',
-      imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300',
-      imageAlt: '조경이 어우러진 석재 옹벽 시공'
-    }
+    { title: '구조물', imageUrl: '/images/processes/processes_1.jpg', imageAlt: '현대적인 조경 구조물 시공' },
+    { title: '데크', imageUrl: '/images/processes/processes_2.jpg', imageAlt: '원목 데크 시공' },
+    { title: '산책로', imageUrl: '/images/processes/processes_3.jpg', imageAlt: '자연을 통과하는 아름다운 산책로 조성' },
+    { title: '옹벽', imageUrl: '/images/processes/processes_4.jpg', imageAlt: '조경이 어우러진 석재 옹벽 시공' },
+    { title: '조경시설', imageUrl: '/images/processes/processes_5.jpg', imageAlt: '조경시설 설치' },
+    { title: '조경수목', imageUrl: '/images/processes/processes_6.jpg', imageAlt: '조경수목 식재' },
+    { title: '포장', imageUrl: '/images/processes/processes_7.jpg', imageAlt: '포장 시공' },
+    { title: '조경관리', imageUrl: '/images/processes/processes_8.jpg', imageAlt: '조경 유지관리' }
   ];
 
   return (

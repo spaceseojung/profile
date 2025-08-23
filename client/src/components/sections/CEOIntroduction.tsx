@@ -22,8 +22,8 @@ const CEOIntroduction = () => {
             ref={imageRef}
             className={`ceo__image-container animate-on-scroll ${imageVisible ? 'visible' : ''}`}
           >
-            <img 
-              src="https://pixabay.com/get/gf510880a129f2d412eed273b16f62d6bba4a412fa7eeb1692394ce4f203911cd1e95d13e948e476b4d6fa6a096105ddb0e4551f3bc9fccad4aebdaf141bb31e2_1280.jpg"
+            <img
+              src="/images/ceo/ceo_1.jpg"
               alt="대표이사 이미선"
               className="ceo__image"
               data-testid="img-ceo-portrait"

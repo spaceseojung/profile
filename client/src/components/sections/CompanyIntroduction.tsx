@@ -40,8 +40,8 @@ const CompanyIntroduction = () => {
             ref={imageRef}
             className={`company__image-container animate-on-scroll ${imageVisible ? 'visible' : ''}`}
           >
-            <img 
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=1000"
+            <img
+              src="/images/experience/experience_1.jpg"
               alt="자연 조경 작업 배경"
               className="company__main-image"
               data-testid="img-company-main"

@@ -6,18 +6,9 @@ const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const heroImages = [
-    {
-      url: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=800',
-      alt: '자연 조경 프로젝트 1'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=800',
-      alt: '정원 조성 프로젝트 2'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=800',
-      alt: '도시 조경 프로젝트 3'
-    }
+    { url: '/images/grid/grid_1.jpg', alt: '그리드 이미지 1' },
+    { url: '/images/grid/grid_2.jpg', alt: '그리드 이미지 2' },
+    { url: '/images/grid/grid_3.jpg', alt: '그리드 이미지 3' }
   ];
 
   useEffect(() => {
