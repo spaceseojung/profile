@@ -9,6 +9,7 @@
   font-size: 1.5rem;
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--spacing-md);
+  font-family: 'Montserrat', 'Pretendard', 'sans-serif';
 }
 
 .footer__tagline {

@@ -29,14 +29,14 @@
   font-size: 2rem;
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
+  margin: 0;
 }
 
 .ceo__name {
   font-size: 1.5rem;
   font-weight: var(--font-weight-semibold);
   color: var(--color-charcoal);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-xs);
 }
 
 .ceo__career-title {
@@ -54,9 +54,9 @@
 
 .ceo__career-item {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row;
+  height: 2.5rem;
   gap: var(--spacing-md);
-  margin-bottom: var(--spacing-xs);
   align-items: center;
 }
 
@@ -71,7 +71,6 @@
 .ceo__career-text {
   font-size: 1.25rem;
   color: var(--color-gray-700);
-  line-height: 1.6;
 }
 
 @media (min-width: 1024px) {

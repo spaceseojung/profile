@@ -10,7 +10,6 @@ const CEOIntroduction = () => {
     '구미대학교 도시조경디자인과 겸임교수',
     '경북대학교 대학원 조경학 박사수료',
     '前 그린조경학원 외래 강사',
-
     '한국건설기술인협회 특급기술인',
     '식물보호/종자/조경기사 외 다수',
     '다육아트작가활동 (다육아트협회)',
@@ -37,11 +36,10 @@ const CEOIntroduction = () => {
             ref={contentRef}
             className={`ceo__content animate-on-scroll ${contentVisible ? 'visible' : ''}`}
           >
-            <h2 className="ceo__title" data-testid="text-ceo-title">대표이사 소개</h2>
+            <h2 className="ceo__title" data-testid="text-ceo-title">대표이사 주요약력</h2>
             <h3 className="ceo__name" data-testid="text-ceo-name">이미선</h3>
             
             <div className="ceo__career">
-              <h4 className="ceo__career-title">주요 약력</h4>
               <ul className="ceo__career-list">
                 {careerItems.map((item, index) => (
                   <li key={index} className="ceo__career-item" data-testid={`text-career-${index}`}>
