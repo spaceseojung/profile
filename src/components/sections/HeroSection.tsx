@@ -33,17 +33,17 @@ const HeroSection = () => {
           </div>
         ))}
       </div>
-      
+
       <div className="hero-content">
         <div className="container">
-          <div 
+          <div
             ref={ref}
             className={`hero-text animate-on-scroll ${isVisible ? 'visible' : ''}`}
           >
-            <h1 className="hero-title" data-testid="text-hero-title">
-                공간에 가치를 더하다.<br />
-                <span className="hero-title__highlight">㈜스페이스 서정</span>
-            </h1>
+      <h1 className="hero-title" data-testid="text-hero-title">
+        <span className="hero-title__slow" style={{ fontWeight: 600 }}>느림 공간</span>(徐庭)
+        <span className="hero-title__dimmed mobile-break" style={{ color: "#e0e0e0" }}>의 가치를 더합니다.</span>
+      </h1>
           </div>
         </div>
       </div>

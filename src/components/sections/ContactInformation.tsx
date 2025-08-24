@@ -25,8 +25,8 @@ const ContactInformation = () => {
             <h3 className="business-card__title" data-testid="text-business-company-name">㈜스페이스 서정</h3>
             <div className="business-card__divider"></div>
             <div className="business-card__info">
-              <p className="business-card__name" data-testid="text-business-ceo-name">대표이사 이미선</p>
-              <p className="business-card__company" data-testid="text-business-company-english">SPACE SEOJUNG - 대표이사</p>
+              <p className="business-card__name" data-testid="text-business-ceo-name">이미선</p>
+              <p className="business-card__company" data-testid="text-business-company-english">대표이사</p>
             </div>
           </div>
 
