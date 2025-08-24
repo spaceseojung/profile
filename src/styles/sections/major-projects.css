@@ -23,6 +23,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-primary);
+  margin-top: 0;
   margin-bottom: var(--spacing-sm);
   font-family: 'Montserrat', 'Pretendard', 'Inter', system-ui, sans-serif;
 }
