@@ -38,27 +38,27 @@ const ContactInformation = () => {
           >
             <div className="business-card__contact-list">
               <div className="business-card__contact-item" data-testid="text-contact-email">
-                <span className="business-card__contact-text">M</span>
+                <span className="business-card__contact-label">M</span>
                 <span className="business-card__contact-text">010. 8526. 0851</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
-                <span className="business-card__contact-text">T</span>
+                <span className="business-card__contact-label">T</span>
                 <span className="business-card__contact-text">035. 763. 0851</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
-                <span className="business-card__contact-text">F</span>
+                <span className="business-card__contact-label">F</span>
                 <span className="business-card__contact-text">0504. 201. 0742</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
-                <span className="business-card__contact-text">E</span>
+                <span className="business-card__contact-label">E</span>
                 <span className="business-card__contact-text">lms@spaceseojung.kr</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-address">
-                <span className="business-card__contact-text">AD</span>
+                <span className="business-card__contact-label">AD</span>
                 <span className="business-card__contact-text">대구광역시 달성군 가창면 가창로 1124</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
-                <span className="business-card__contact-text">ST</span>
+                <span className="business-card__contact-label">ST</span>
                 <span className="business-card__contact-text">대구광역시 수성구 가천동 556</span>
               </div>
             </div>

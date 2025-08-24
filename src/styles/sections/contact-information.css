@@ -1,3 +1,13 @@
+/* 연락처 라벨 스타일 */
+.business-card__contact-label {
+  display: inline-block;
+  font-weight: 600;
+  color: #989898;
+  width: 2.5rem;
+  min-width: 2.5rem;
+  text-align: start;
+}
+
 .contact-grid {
   display: grid;
   gap: var(--spacing-xl);
