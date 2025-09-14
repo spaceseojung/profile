@@ -59,7 +59,7 @@ const ContactInformation = () => {
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-address">
                 <span className="business-card__contact-label">AD</span>
-                <span className="business-card__contact-text">대구광역시 달성군 가창면 가창로 1124</span>
+                <span className="business-card__contact-text">대구광역시 달성군 가창면 가창로 1124, 3층</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
                 <span className="business-card__contact-label">ST</span>

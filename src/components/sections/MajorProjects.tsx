@@ -98,7 +98,7 @@ const MajorProjects = () => {
           <div className="projects-logo__container" data-testid="container-company-logo">
             <h3 className="projects-logo__title" data-testid="text-company-logo">
               <span className="projects-logo__title--secondary">SPACE </span>
-              <span className="projects-logo__title--primary">SEOJUNG</span>
+              <span className="projects-logo__title--primary">SEOJUNG. CO</span>
             </h3>
             <div className="projects-logo__divider"></div>
           </div>

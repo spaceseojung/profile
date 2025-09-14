@@ -29,8 +29,8 @@ const CompanyIntroduction = () => {
                 <h4 className="company__section-title" data-testid="text-experience-title">2. 꾸준히, 폭 넓은 조경 경험</h4>
                 <div className="company__section-content" data-testid="text-experience-content">
                   <p>• 개인 주택 정원에서 아파트 조경까지. 상업 공간에서 공공의 공원 조성까지.</p>
-                  <p>• 다육아트, 모스인테리어, 이끼정원, 수석산 등.</p>
-                  <p>• ㈜스페이스 서정은 인문학·경관적 가치를 바탕으로</p>
+                  <p>• 다육아트, 모스인테리어, 이끼정원, 석가산 등.</p>
+                  <p>• ㈜스페이스 서정은 인문학적·경관적 가치를 바탕으로</p>
                   <p>• 이용자의 요구에 맞는 다양한 공간을 조성하는 회사입니다.</p>
                 </div>
               </div>
