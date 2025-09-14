@@ -25,7 +25,7 @@ const CEOIntroduction = () => {
             className={`ceo__image-container animate-on-scroll ${imageVisible ? 'visible' : ''}`}
           >
             <img
-              src="/images/ceo/ceo_1.jpg"
+              src="/images/ceo/ceo_1.jpeg"
               alt="대표이사 이미선"
               className="ceo__image"
               data-testid="img-ceo-portrait"
