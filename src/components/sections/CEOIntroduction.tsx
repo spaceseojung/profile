@@ -19,6 +19,8 @@ const CEOIntroduction = () => {
   return (
     <section id="ceo" className="section ceo-section" data-testid="section-ceo">
       <div className="container">
+        <h2 className="section-title" data-testid="text-ceo-title">대표이사 주요약력</h2>
+        
         <div className="ceo-grid">
           <div 
             ref={imageRef}
@@ -36,7 +38,6 @@ const CEOIntroduction = () => {
             ref={contentRef}
             className={`ceo__content animate-on-scroll ${contentVisible ? 'visible' : ''}`}
           >
-            <h2 className="ceo__title" data-testid="text-ceo-title">대표이사 주요약력</h2>
             <h3 className="ceo__name" data-testid="text-ceo-name">이미선</h3>
             
             <div className="ceo__career">

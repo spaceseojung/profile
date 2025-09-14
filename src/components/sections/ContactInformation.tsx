@@ -53,13 +53,17 @@ const ContactInformation = () => {
                 <span className="business-card__contact-label">E</span>
                 <span className="business-card__contact-text">lms@spaceseojung.kr</span>
               </div>
+              <div className="business-card__contact-item" data-testid="text-contact-email">
+                <span className="business-card__contact-label">HP</span>
+                <span className="business-card__contact-text">www.spaceseojung.kr</span>
+              </div>
               <div className="business-card__contact-item" data-testid="text-contact-address">
                 <span className="business-card__contact-label">AD</span>
                 <span className="business-card__contact-text">대구광역시 달성군 가창면 가창로 1124</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
                 <span className="business-card__contact-label">ST</span>
-                <span className="business-card__contact-text">대구광역시 수성구 가천동 556</span>
+                <span className="business-card__contact-text">대구광역시 수성구 고모로35 (가천동)</span>
               </div>
             </div>
           </div>

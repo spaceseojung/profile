@@ -54,7 +54,7 @@ const DetailedProcesses = () => {
           ref={titleRef}
           className={`animate-on-scroll ${titleVisible ? 'visible' : ''}`}
         >
-          <h2 className="section-title" data-testid="text-processes-title">㈜스페이스 서정이 하는 일</h2>
+          <h2 className="section-title" data-testid="text-processes-title">세부 공종</h2>
         </div>
 
         <div className="grid processes-grid">

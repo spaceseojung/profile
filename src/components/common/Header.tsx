@@ -96,7 +96,7 @@ const Header = () => {
                 }}
                 data-testid="link-nav-processes"
               >
-                하는 일
+                세부 공종
               </a>
             </li>
             <li>
@@ -109,7 +109,7 @@ const Header = () => {
                 }}
                 data-testid="link-nav-categories"
               >
-                시공
+                시공 분야
               </a>
             </li>
             <li>

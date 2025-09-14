@@ -18,7 +18,7 @@ const ConstructionCategories = () => {
           ref={titleRef}
           className={`animate-on-scroll ${titleVisible ? 'visible' : ''}`}
         >
-          <h2 className="section-title" data-testid="text-categories-title">시공</h2>
+          <h2 className="section-title" data-testid="text-categories-title">시공 분야</h2>
         </div>
 
         <div className="grid categories-grid">
