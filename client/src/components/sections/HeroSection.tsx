@@ -6,8 +6,8 @@ const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const heroImages = [
-    { url: '/images/grid/grid_1.jpg', alt: '그리드 이미지 1' },
-    { url: '/images/grid/grid_2.jpeg', alt: '그리드 이미지 2' },
+    { url: '/images/grid/grid_2.jpeg', alt: '그리드 이미지 1' },
+    { url: '/images/grid/grid_1.jpg', alt: '그리드 이미지 2' },
     { url: '/images/grid/grid_3.jpg', alt: '그리드 이미지 3' }
   ];
 
