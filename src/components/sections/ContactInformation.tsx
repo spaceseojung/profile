@@ -15,21 +15,7 @@ const ContactInformation = () => {
           <h2 className="section-title" data-testid="text-contact-title">회사 연락처 및 정보</h2>
         </div>
 
-        <div className="contact-grid">
-          {/* Business Card Front */}
-          <div
-            ref={cardRef1}
-            className={`business-card business-card--front animate-on-scroll ${cardVisible1 ? 'visible' : ''}`}
-            data-testid="card-business-front"
-          >
-            <h3 className="business-card__title" data-testid="text-business-company-name">㈜스페이스 서정</h3>
-            <div className="business-card__divider"></div>
-            <div className="business-card__info">
-              <p className="business-card__name" data-testid="text-business-ceo-name">이미선</p>
-              <p className="business-card__company" data-testid="text-business-company-english">대표이사</p>
-            </div>
-          </div>
-
+        <div className="contact-grid" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           {/* Business Card Back */}
           <div
             ref={cardRef2}
@@ -43,7 +29,7 @@ const ContactInformation = () => {
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
                 <span className="business-card__contact-label">T</span>
-                <span className="business-card__contact-text">035. 763. 0851</span>
+                <span className="business-card__contact-text">053. 763. 0851</span>
               </div>
               <div className="business-card__contact-item" data-testid="text-contact-email">
                 <span className="business-card__contact-label">F</span>
