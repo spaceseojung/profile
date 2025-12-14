@@ -42,10 +42,10 @@ const HeroSection = () => {
             ref={ref}
             className={`hero-text animate-on-scroll ${isVisible ? 'visible' : ''}`}
           >
-      <h1 className="hero-title" data-testid="text-hero-title">
-        <span className="hero-title__slow" style={{ fontWeight: 600 }}>느림 공간 : </span>徐庭
-        <span className="hero-title__dimmed mobile-break" style={{ color: "#e0e0e0" }}>의 가치를 더합니다.</span>
-      </h1>
+            <h1 className="hero-title" data-testid="text-hero-title">
+              <span className="hero-title__subtitle">시간이 지날수록 가치있는 공간.</span>
+              <span className="hero-title__main">徐庭의 가치를 이야기합니다</span>
+            </h1>
           </div>
         </div>
       </div>
