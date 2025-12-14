@@ -18,19 +18,19 @@ const CompanyIntroduction = () => {
               <div className="company__section">
                 <h4 className="company__section-title" data-testid="text-philosophy-title">1. 쉬고 싶은 공간에 대한 철학</h4>
                 <div className="company__section-content" data-testid="text-philosophy-content">
-                  <p>• 바쁜 현대인들의 삶 속</p>
-                  <p>• 시간을 멈추게 하고 싶은 공간.</p>
-                  <p>• 시간이 지나면서 완성되는 서정적 공간.</p>
+                  <p>• 바쁜 현대인의 삶 속</p>
+                  <p>• 시간을 멈추게 하고 싶은 공간</p>
+                  <p>• 시간이 지날수록 완성되는 서정적 공간</p>
                   <p>• ㈜스페이스 서정이 추구하는 공간입니다.</p>
                 </div>
               </div>
 
               <div className="company__section">
-                <h4 className="company__section-title" data-testid="text-experience-title">2. 꾸준히, 폭 넓은 조경 경험</h4>
+                <h4 className="company__section-title" data-testid="text-experience-title">2. 다양하고, 폭 넓은 조경 경험</h4>
                 <div className="company__section-content" data-testid="text-experience-content">
-                  <p>• 개인 주택 정원에서 아파트 조경까지. 상업 공간에서 공공의 공원 조성까지.</p>
-                  <p>• 다육아트, 모스인테리어, 이끼정원, 석가산 등.</p>
-                  <p>• ㈜스페이스 서정은 인문학적·경관적 가치를 바탕으로</p>
+                  <p>• 개인 주택 정원에서 아파트 조경까지</p>
+                  <p>• 상업 공간에서 공공의 공원 조성까지</p>
+                  <p>• 조경특화, 플랜테리어, 모스인테리어, 이끼정원, 석가산 등</p>
                   <p>• 이용자의 요구에 맞는 다양한 공간을 조성하는 회사입니다.</p>
                 </div>
               </div>

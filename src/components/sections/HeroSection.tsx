@@ -6,9 +6,11 @@ const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const heroImages = [
-    { url: '/images/grid/grid_2.jpg', alt: '그리드 이미지 1' },
-    { url: '/images/grid/grid_1.jpg', alt: '그리드 이미지 2' },
-    { url: '/images/grid/grid_3.jpg', alt: '그리드 이미지 3' }
+    { url: '/images/grid/GRID0.jpg', alt: '그리드 이미지 0' },
+    { url: '/images/grid/GRID1.png', alt: '그리드 이미지 1' },
+    { url: '/images/grid/GRID2.png', alt: '그리드 이미지 2' },
+    { url: '/images/grid/GRID3.png', alt: '그리드 이미지 3' },
+    { url: '/images/grid/GRID4.png', alt: '그리드 이미지 4' }
   ];
 
   useEffect(() => {
