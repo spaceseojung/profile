@@ -55,9 +55,10 @@
 .ceo__career-item {
   display: flex;
   flex-direction: row;
-  height: 2.5rem;
-  gap: var(--spacing-md);
+  height: auto;
   align-items: center;
+  gap: var(--spacing-md);
+  padding: 0.25rem 0;
 }
 
 .ceo__career-dot {
@@ -71,6 +72,7 @@
 .ceo__career-text {
   font-size: 1.25rem;
   color: var(--color-gray-700);
+  margin: 0;
 }
 
 @media (min-width: 1024px) {
